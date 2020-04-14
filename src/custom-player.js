@@ -1,13 +1,5 @@
 import RealPlayer from './player/RealPlayer.js';
 import BackPlayer from './player/BackPlayer.js';
-
-// //浏览器切换事件
-// document.addEventListener('visibilitychange', () => { 
-//     if (document.visibilityState == 'visible') {
-//         Player.init();
-//     }
-// });
-
 export default {
     createPlayer(el, media) {
         if(el) {
@@ -38,7 +30,7 @@ export default {
                         recordType: '',
                         saveType: ''
                     }, options));
-                }else {
+                } else {
                     throw new Error('params is not intact');
                 }
             }
