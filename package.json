@@ -1,13 +1,13 @@
 {
   "name": "custom-player",
   "version": "1.0.0",
-  "description": "",
+  "description": "webPlayer base of flvjs",
   "main": "./dist/custom-player.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["flvjs", "custom=player"],
   "author": "tangxiaoxin",
   "license": "ISC",
   "devDependencies": {
@@ -21,5 +21,13 @@
   },
   "dependencies": {
     "enhance-flvjs": "^1.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonTang-front/custom-player.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JonTang-front/custom-player/issues"
+  },
+  "homepage": "https://github.com/JonTang-front/custom-player#readme"
 }

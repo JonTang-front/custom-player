@@ -2,6 +2,9 @@
 
 ```
 npm install custom-player --save-dev
+//or
+<script src="custom-player"></script>
+SZPlayer.createPlayer();
 ```
 ### Demo
 
