@@ -6,12 +6,18 @@ npm install custom-player --save-dev
 <script src="custom-player"></script>
 SZPlayer.createPlayer();
 ```
+
 ### Demo
+
+```
+<div id="container"></div>
+```
 
 ```
 import FlvPlayer from 'custom-player';
 //直播
-const player = FlvPlayer.createPlayer(dom, {
+const container = document.getElementById('container');
+const player = FlvPlayer.createPlayer(container, {
       mode: 'real',
       options: {
         stream: 'http://192.168.2.155:1945/34020000001320000145_771/playback.flv',
@@ -22,7 +28,7 @@ const player = FlvPlayer.createPlayer(dom, {
     });
 
 //回放
-const player = FlvPlayer.createPlayer(dom, {
+const player = FlvPlayer.createPlayer(container, {
       mode: 'playback',
       options: {
         startServer: '',
@@ -35,6 +41,7 @@ const player = FlvPlayer.createPlayer(dom, {
       }
     });
 ```
+
 ### Params
 
 key | value
