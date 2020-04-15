@@ -20,8 +20,8 @@ export default class {
         this.sessionId && await this.stopStream();
         API.startStream(this.startServer, {
             deviceId: this.deviceId,
-            start: beginTimeStamp,
-            end: endTimeStamp,
+            start: Math.floor(beginTimeStamp),
+            end: Math.floor(endTimeStamp),
             type: this.streamType,
             recordType: this.recordType,
             saveType: this.saveType
