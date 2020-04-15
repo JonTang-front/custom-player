@@ -39,9 +39,10 @@ export default class {
                     type: 'flv',
                     url: this.stream,
                     hasVideo: true,
-                    hasAudio: false,
+                    hasAudio: true,
                     isLive: true,
-                    cors: true
+                    cors: true,
+                    withCredentials: false
                 },{
                     enableWorker: true,
                     enableStashBuffer: false,
