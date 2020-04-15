@@ -9,8 +9,8 @@ export default class {
         this.deviceId = options.deviceId;
         this.appId = options.appId;
         this.streamType = options.streamType;
-        this.beginTimeStamp = options.beginTimeStamp;
-        this.endTimeStamp = options.endTimeStamp;
+        this.beginTimeStamp = parseInt(options.beginTimeStamp);
+        this.endTimeStamp = parseInt(options.endTimeStamp);
         this.currentTime = 0;
         this.getStream(this.beginTimeStamp, this.endTimeStamp);
         this.renderVideo();
@@ -20,8 +20,8 @@ export default class {
         this.sessionId && await this.stopStream();
         API.startStream(this.startServer, {
             deviceId: this.deviceId,
-            start: Math.floor(beginTimeStamp),
-            end: Math.floor(endTimeStamp),
+            start: beginTimeStamp,
+            end: endTimeStamp,
             type: this.streamType,
             recordType: this.recordType,
             saveType: this.saveType
@@ -92,7 +92,7 @@ export default class {
     }
     updateProgress(e) {
         e.stopPropagation();
-        this.currentTime = (e.offsetX / this.progressBarTotalWidth) * (this.endTimeStamp - this.beginTimeStamp);
+        this.currentTime = Math.floor((e.offsetX / this.progressBarTotalWidth) * (this.endTimeStamp - this.beginTimeStamp));
         this.progressBarEle.style.width = e.offsetX + 'px';
         this.getStream(this.beginTimeStamp + this.currentTime, this.endTimeStamp);
     }
