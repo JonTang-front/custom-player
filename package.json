@@ -20,7 +20,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "enhance-flvjs": "^1.5.1"
+    "enhance-flvjs": "^2.0.0"
   },
   "repository": {
     "type": "git",
