@@ -18,7 +18,7 @@ module.exports = {
             include: [
                 path.resolve(__dirname, 'src')
             ],
-            exclude: '/node_modules',
+            exclude: path.resolve(__dirname, 'node_modules'),
             loader: "babel-loader",
         }]
     },
