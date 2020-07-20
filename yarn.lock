@@ -1617,10 +1617,10 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   dependencies:
     once "^1.4.0"
 
-enhance-flvjs@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.npm.taobao.org/enhance-flvjs/download/enhance-flvjs-1.5.1.tgz#c3f2a4f14459c5c622cd740478566b1b9a936aec"
-  integrity sha1-w/Kk8URZxcYizXQEeFZrG5qTauw=
+enhance-flvjs@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/enhance-flvjs/-/enhance-flvjs-2.0.2.tgz#6a265972302e21e278ca554e2c4317c1db17602e"
+  integrity sha512-z37bCwbnio3KsQ3JObXHGtprJ13B+cAlMdZ03DySs0R68k1XXpgUzcB76QuXqyrmMz0YyJM2SpksHylWAnK89Q==
   dependencies:
     es6-promise "^4.2.5"
     natives "^1.1.6"
@@ -2386,9 +2386,9 @@ locate-path@^3.0.0:
     path-exists "^3.0.0"
 
 lodash@^4.17.13:
-  version "4.17.15"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 loose-envify@^1.0.0:
   version "1.4.0"
