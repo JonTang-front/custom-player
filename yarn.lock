@@ -1617,10 +1617,10 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   dependencies:
     once "^1.4.0"
 
-enhance-flvjs@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.npm.taobao.org/enhance-flvjs/download/enhance-flvjs-1.5.1.tgz#c3f2a4f14459c5c622cd740478566b1b9a936aec"
-  integrity sha1-w/Kk8URZxcYizXQEeFZrG5qTauw=
+enhance-flvjs@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/enhance-flvjs/-/enhance-flvjs-2.0.2.tgz#6a265972302e21e278ca554e2c4317c1db17602e"
+  integrity sha512-z37bCwbnio3KsQ3JObXHGtprJ13B+cAlMdZ03DySs0R68k1XXpgUzcB76QuXqyrmMz0YyJM2SpksHylWAnK89Q==
   dependencies:
     es6-promise "^4.2.5"
     natives "^1.1.6"
@@ -2841,9 +2841,9 @@ path-key@^2.0.0, path-key@^2.0.1:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.npm.taobao.org/path-parse/download/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha1-1i27VnlAXXLEc37FhgDp3c8G0kw=
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 pbkdf2@^3.0.3:
   version "3.0.17"
