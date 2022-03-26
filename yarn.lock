@@ -1617,10 +1617,10 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   dependencies:
     once "^1.4.0"
 
-enhance-flvjs@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.npm.taobao.org/enhance-flvjs/download/enhance-flvjs-1.5.1.tgz#c3f2a4f14459c5c622cd740478566b1b9a936aec"
-  integrity sha1-w/Kk8URZxcYizXQEeFZrG5qTauw=
+enhance-flvjs@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/enhance-flvjs/-/enhance-flvjs-2.0.2.tgz#6a265972302e21e278ca554e2c4317c1db17602e"
+  integrity sha512-z37bCwbnio3KsQ3JObXHGtprJ13B+cAlMdZ03DySs0R68k1XXpgUzcB76QuXqyrmMz0YyJM2SpksHylWAnK89Q==
   dependencies:
     es6-promise "^4.2.5"
     natives "^1.1.6"
@@ -2515,9 +2515,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.npm.taobao.org/minimist/download/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 mississippi@^3.0.0:
   version "3.0.0"
